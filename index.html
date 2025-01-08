@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="bg-image"></div>
+    <section class="bg-text">
+        <div class="counter-section">
+            <header>
+                <h1>No. of Passengers Entered:</h1>
+            </header>
+            <h2 id="count-el">0</h2>
+            <div class="btns">
+                <button id="increment-btn" aria-label="Add passenger">Add</button>
+                <button id="decrement-btn" aria-label="Subtract passenger">Subtract</button>
+                <button id="reset-btn" aria-label="Reset counter">Reset</button>
+            </div>
+            <!-- Button to navigate to the log entries page -->
+            <button id="view-logs-btn" onclick="window.location.href='logs.html'">View Logs</button>
+        </div>
+    </section>
+</body>
+</html>
