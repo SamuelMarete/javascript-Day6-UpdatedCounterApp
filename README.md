@@ -24,7 +24,7 @@ JavaScript 📈
 LocalStorage for storing log entries 📁
 
 Getting Started
-Clone the repository to your local machine using git clone https://github.com/your-username/passenger-counter.git
+Clone the repository to your local machine using git clone https://github.com/SamuelMarete/javascript-Day6-UpdatedCounterApp.git
 Open the index.html file in a web browser to view the application
 Use the increment, decrement, and reset buttons to update the passenger count
 Click on the "View Logs" button to navigate to the log page
